@@ -1,0 +1,157 @@
+<?php
+/**
+ * Copyright (c) 2014, Tinypass, Inc.
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or
+ * without modification, are permitted provided that the following
+ * conditions are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright
+ * notice, this list of conditions and the following disclaimer.
+ *
+ * 2. Redistributions in binary form must reproduce the above copyright
+ * notice, this list of conditions and the following disclaimer in the
+ * documentation and/or other materials provided with the distribution.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ * "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+ * FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+ * COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+ * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+ * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
+ * OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED
+ * AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE
+ * USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+/**
+* The TPTermChangeEvent model.
+* \Model
+*/
+class TPTermChangeEvent extends TPEvent {
+
+    /**
+    * @var string $aid  
+    */
+    public $aid;
+
+    /**
+    * @var string $uid  
+    */
+    public $uid;
+
+    /**
+    * @var string $userEmail  
+    */
+    public $userEmail;
+
+    /**
+    * @var string $previousTermId  
+    */
+    public $previousTermId;
+
+    /**
+    * @var string $previousTermName  
+    */
+    public $previousTermName;
+
+    /**
+    * @var string $newTermId  
+    */
+    public $newTermId;
+
+    /**
+    * @var string $newTermName  
+    */
+    public $newTermName;
+
+    /**
+    * @var string $previousSubscriptionId  
+    */
+    public $previousSubscriptionId;
+
+    /**
+    * @var string $newSubscriptionId  
+    */
+    public $newSubscriptionId;
+
+    /**
+    * @var string $newSubscriptionRid  
+    */
+    public $newSubscriptionRid;
+
+    /**
+    * @var string $newSubscriptionAccessId  
+    */
+    public $newSubscriptionAccessId;
+
+    /**
+    * @var string $newBillingPlan  
+    */
+    public $newBillingPlan;
+
+    /**
+    * @var int $newSubscriptionNextBillDate  
+    */
+    public $newSubscriptionNextBillDate;
+
+    /**
+    * @var int $dateOfAccessChange  
+    */
+    public $dateOfAccessChange;
+
+    /**
+    * @var int $dateOfBillingChange  
+    */
+    public $dateOfBillingChange;
+
+    /**
+    * @var string $upiId  
+    */
+    public $upiId;
+
+    /**
+    * @var bool $isInGrace  
+    */
+    public $isInGrace;
+
+    /**
+    * @var int $gracePeriodStartDate  
+    */
+    public $gracePeriodStartDate;
+
+    /**
+    * @var int $gracePeriodLength  
+    */
+    public $gracePeriodLength;
+
+    /**
+    * @var int $failureCounter  
+    */
+    public $failureCounter;
+
+    /**
+    * @var string $passiveChurnLogicId  
+    */
+    public $passiveChurnLogicId;
+
+    /**
+    * @var string $declineReason  
+    */
+    public $declineReason;
+
+    /**
+    * @var string $paymentId  
+    */
+    public $paymentId;
+
+    /**
+    * @var string $changedBy  
+    */
+    public $changedBy;
+
+}
+
+
