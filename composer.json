@@ -1,0 +1,26 @@
+{
+  "name": "foreign-policy-magazine/tinypass-vx-php-sdk",
+  "description": "A fork of the piano.io PHP SDK library.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Zgjim Gjonbalaj",
+      "email": "zgjim.gjonbalaj@foreignpolicy.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "TinyPass\\SDK": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "TinyPass\\SDK\\Tests\\": "tests/"
+    }
+  }
+}
