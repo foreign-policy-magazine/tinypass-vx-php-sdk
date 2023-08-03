@@ -15,7 +15,7 @@
   },
   "autoload": {
     "psr-4": {
-      "TinyPass\\SDK": "src/"
+      "TinyPass\\SDK\\": "src/"
     }
   },
   "autoload-dev": {
